@@ -8,3 +8,18 @@
 * brain-gcd (https://asciinema.org/a/tfs8teIYTJ7AyfbbjuwmjjKOy)
 * brain-progression (https://asciinema.org/a/uX5JaXnEmbs3nvIJ3HxAqv48Y)
 * brain-prime (https://asciinema.org/a/g5hOYOcDgv7R0KaxOWMrzu8kU)
+
+**How to install**
+1. $make install
+2. $make build
+3. $make publish
+4. $make package-install
+
+**Games:**
+
+**To run the game you need to enter game name in terminal**
+* brain-even - you need  to check is even number or not
+* brain-calc - addition, subtraction or multiplication of two random numbers
+* brain-progression - you need find lost progression number
+* brain-gcd - you need to find gcd  of two random numbers
+* brain-prime - you need to check is prime number or not
