@@ -1,27 +1,23 @@
 #!/usr/bin/env python3
-import prompt
 import random
+from brain_games.game import brain_game
+
+RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
+
+
+def is_even(value):
+    return value % 2 == 0
+
+
+def get_question_answer():
+    question = random.randint(1, 100)
+    answer = 'yes' if is_even(question) else 'no'
+    return [question, answer]
 
 
 def main():
-    user_name = prompt.string('May I have your name? ')
-    print(f"Hello, {user_name}!")
-    print('Answer "yes" if the number is even, otherwise answer "no".')
-    counter = 0
-    while counter < 3:
-        value = random.randint(1, 100)
-        correct = 'yes' if value % 2 == 0 else 'no'
-        print(f"Question:{value}")
-        answer = prompt.string('Your answer:')
-        if answer == correct:
-            print('Correct!')
-            counter += 1
-            continue
-        print(f'"{answer}" is wrong answer ;(. Correct answer was "{correct}".')
-        print(f'Let\'s try again, {user_name}!')
-        return
-    print(f"Congratulations, {user_name}!")
+    brain_game(get_question_answer, RULE)
 
 
 if __name__ == '__main__':
-    main()
+    brain_game()
