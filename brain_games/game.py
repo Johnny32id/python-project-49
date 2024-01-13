@@ -10,7 +10,7 @@ def brain_game(get_question_anser, rule):
     while questions_quantity < 3:
         question_answer = get_question_anser()
         correct = question_answer[1]
-        print(f"Question:{question_answer[0]}")
+        print(f"Question: {question_answer[0]}")
         answer = prompt.string('Your answer: ')
         if answer == correct:
             print('Correct!')
