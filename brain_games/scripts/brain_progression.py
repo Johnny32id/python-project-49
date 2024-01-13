@@ -7,17 +7,17 @@ PROGRESSION_LENGTH = random.randint(5, 10)
 
 
 def get_question(first_value, difference, value_to_skip):
-    progression = []
+    progression = ''
     counter = 0
     while counter < PROGRESSION_LENGTH:
         if counter == value_to_skip:
-            progression.append('..')
+            progression = progression + '.. '
             counter += 1
             continue
         progression_value = first_value + difference * counter
-        progression.append(str(progression_value))
+        progression = progression + f'{progression_value} '
         counter += 1
-    return progression
+    return progression.strip()
 
 
 def get_question_answer():
