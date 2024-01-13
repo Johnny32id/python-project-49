@@ -6,7 +6,7 @@
 * brain-even (https://asciinema.org/a/N4p5D1BOIlI7Rnx47MdqRmqts)
 * brain-calc (https://asciinema.org/a/C0EYUG2pjOUin7p8ZolaDzi6e)
 * brain-gcd (https://asciinema.org/a/tfs8teIYTJ7AyfbbjuwmjjKOy)
-* brain-progression (https://asciinema.org/a/uX5JaXnEmbs3nvIJ3HxAqv48Y)
+* brain-progression (https://asciinema.org/a/jxNt6AwUZifQh5oCX5lcksz81)
 * brain-prime (https://asciinema.org/a/g5hOYOcDgv7R0KaxOWMrzu8kU)
 
 **How to install**
