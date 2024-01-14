@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import random
+from brain_games.game import brain_game
 
 RULE = 'What number is missing in the progression?'
 PROGRESSION_LENGTH = random.randint(5, 10)
@@ -26,3 +27,7 @@ def get_question_answer():
     question = get_question(first_value, difference, value_to_skip)
     answer = str(first_value + difference * value_to_skip)
     return [question, answer]
+
+
+def progression_game():
+    brain_game(get_question_answer, RULE)

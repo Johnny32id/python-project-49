@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 import random
+from brain_games.game import brain_game
 
 RULE = 'What is the result of the expression?'
 
@@ -26,3 +27,7 @@ def get_question_answer():
     question = f"{first_value} {random_sign} {second_value}"
     answer = str(calculate(first_value, second_value, random_sign))
     return [question, answer]
+
+
+def calc_game():
+    return brain_game(get_question_answer, RULE)

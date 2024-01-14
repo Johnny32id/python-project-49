@@ -1,7 +1,7 @@
 #!/usr/bin/env python3
 import random
 import math
-
+from brain_games.game import brain_game
 RULE = 'Find the greatest common divisor of given numbers.'
 
 
@@ -11,3 +11,7 @@ def get_question_answer():
     question = f"{first_value} {second_value}"
     answer = str(math.gcd(first_value, second_value))
     return [question, answer]
+
+
+def gcd_game():
+    return brain_game(get_question_answer, RULE)
