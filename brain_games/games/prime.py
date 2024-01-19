@@ -6,12 +6,9 @@ RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
 
 
 def is_prime(value):
-    if value <= 1:
-        return False
-    elif value > 1:
-        for i in range(2, int(value / 2) + 1):
-            if value % i == 0:
-                return False
+    for i in range(2, int(value / 2) + 1):
+        if value % i == 0:
+            return False
     return True
 
 
