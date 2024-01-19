@@ -3,6 +3,7 @@ import random
 import brain_games.check_yes_or_no
 
 RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
+RANDOM_VALUE = random.randint(1, 100)
 
 
 def is_even(value):
@@ -10,6 +11,5 @@ def is_even(value):
 
 
 def get_question_answer():
-    question = random.randint(1, 100)
-    answer = brain_games.check_yes_or_no.check(question, is_even)
-    return [question, answer]
+    answer = brain_games.check_yes_or_no.check(RANDOM_VALUE, is_even)
+    return [RANDOM_VALUE, answer]

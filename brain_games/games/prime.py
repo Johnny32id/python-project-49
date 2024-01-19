@@ -3,6 +3,7 @@ import random
 import brain_games.check_yes_or_no
 
 RULE = 'Answer "yes" if given number is prime. Otherwise answer "no".'
+RANDOM_VALUE = random.randint(1, 300)
 
 
 def is_prime(value):
@@ -13,6 +14,5 @@ def is_prime(value):
 
 
 def get_question_answer():
-    question = random.randint(1, 300)
-    answer = brain_games.check_yes_or_no.check(question, is_prime)
-    return [question, answer]
+    answer = brain_games.check_yes_or_no.check(RANDOM_VALUE, is_prime)
+    return [RANDOM_VALUE, answer]
