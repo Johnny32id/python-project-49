@@ -3,17 +3,14 @@
 [![Maintainability](https://api.codeclimate.com/v1/badges/28b087f76e9bca034a52/maintainability)](https://codeclimate.com/github/Johnny32id/python-project-49/maintainability)
 
 **Asciinema:**
-* brain-even (https://asciinema.org/a/N4p5D1BOIlI7Rnx47MdqRmqts)
-* brain-calc (https://asciinema.org/a/C0EYUG2pjOUin7p8ZolaDzi6e)
-* brain-gcd (https://asciinema.org/a/tfs8teIYTJ7AyfbbjuwmjjKOy)
-* brain-progression (https://asciinema.org/a/jxNt6AwUZifQh5oCX5lcksz81)
-* brain-prime (https://asciinema.org/a/g5hOYOcDgv7R0KaxOWMrzu8kU)
+* brain-even (<script async id="asciicast-7vnRey64nA990Kog1QhpBv3Jx" src="https://asciinema.org/a/7vnRey64nA990Kog1QhpBv3Jx.js"></script>)
+* brain-calc (<script async id="asciicast-C0EYUG2pjOUin7p8ZolaDzi6e" src="https://asciinema.org/a/C0EYUG2pjOUin7p8ZolaDzi6e.js"></script>)
+* brain-gcd (<script async id="asciicast-tfs8teIYTJ7AyfbbjuwmjjKOy" src="https://asciinema.org/a/tfs8teIYTJ7AyfbbjuwmjjKOy.js"></script>)
+* brain-progression (<script async id="asciicast-jxNt6AwUZifQh5oCX5lcksz81" src="https://asciinema.org/a/jxNt6AwUZifQh5oCX5lcksz81.js"></script>)
+* brain-prime (<script async id="asciicast-g5hOYOcDgv7R0KaxOWMrzu8kU" src="https://asciinema.org/a/g5hOYOcDgv7R0KaxOWMrzu8kU.js"></script>)
 
 **How to install**
-1. $make install
-2. $make build
-3. $make publish
-4. $make package-install
+<script async id="asciicast-tFpiXtkO99lPdd3enLSvCI0OR" src="https://asciinema.org/a/tFpiXtkO99lPdd3enLSvCI0OR.js"></script>
 
 **Games:**
 
