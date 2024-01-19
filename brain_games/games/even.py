@@ -1,6 +1,5 @@
 #!/usr/bin/env python3
 import random
-from brain_games.game import brain_game
 
 RULE = 'Answer "yes" if the number is even, otherwise answer "no".'
 
@@ -13,7 +12,3 @@ def get_question_answer():
     question = random.randint(1, 100)
     answer = 'yes' if is_even(question) else 'no'
     return [question, answer]
-
-
-def even_game():
-    return brain_game(get_question_answer, RULE)
