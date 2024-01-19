@@ -1,14 +1,14 @@
 import prompt
 
 
-def brain_game(get_question_anser, rule):
+def game_launch(game):
     print('Welcome to the Brain Games!')
     USER_NAME = prompt.string('May I have your name? ')
     print(f"Hello, {USER_NAME}!")
-    print(rule)
+    print(game.RULE)
     questions_quantity = 0
     while questions_quantity < 3:
-        question_answer = get_question_anser()
+        question_answer = game.get_question_answer()
         correct = question_answer[1]
         print(f"Question: {question_answer[0]}")
         answer = prompt.string('Your answer: ')
