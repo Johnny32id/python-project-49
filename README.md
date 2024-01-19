@@ -6,7 +6,7 @@
 * brain-even (<script async id="asciicast-7vnRey64nA990Kog1QhpBv3Jx" src="https://asciinema.org/a/7vnRey64nA990Kog1QhpBv3Jx.js"></script>)
 * brain-calc (<script async id="asciicast-C0EYUG2pjOUin7p8ZolaDzi6e" src="https://asciinema.org/a/C0EYUG2pjOUin7p8ZolaDzi6e.js"></script>)
 * brain-gcd (<script async id="asciicast-tfs8teIYTJ7AyfbbjuwmjjKOy" src="https://asciinema.org/a/tfs8teIYTJ7AyfbbjuwmjjKOy.js"></script>)
-* brain-progression (<script async id="asciicast-jxNt6AwUZifQh5oCX5lcksz81" src="https://asciinema.org/a/jxNt6AwUZifQh5oCX5lcksz81.js"></script>)
+* brain-progression (<a href="https://asciinema.org/a/jxNt6AwUZifQh5oCX5lcksz81" target="_blank"><img src="https://asciinema.org/a/jxNt6AwUZifQh5oCX5lcksz81.svg" /></a>)
 * brain-prime (<script async id="asciicast-g5hOYOcDgv7R0KaxOWMrzu8kU" src="https://asciinema.org/a/g5hOYOcDgv7R0KaxOWMrzu8kU.js"></script>)
 
 **How to install**
