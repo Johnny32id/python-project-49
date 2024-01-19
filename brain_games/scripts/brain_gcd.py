@@ -5,7 +5,3 @@ import brain_games.games.gcd
 
 def main():
     game_launch(brain_games.games.gcd)
-
-
-if __name__ == '__main__':
-    main()
