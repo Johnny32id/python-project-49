@@ -2,6 +2,7 @@ import prompt
 
 
 def game_launch(game):
+    '''greets the player and starts the selected game'''
     print('Welcome to the Brain Games!')
     USER_NAME = prompt.string('May I have your name? ')
     print(f"Hello, {USER_NAME}!")

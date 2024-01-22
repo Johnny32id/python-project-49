@@ -6,6 +6,7 @@ PROGRESSION_LENGTH = random.randint(5, 10)
 
 
 def get_question(first_value, difference, value_to_skip):
+    '''generates progression with missing value'''
     progression = ''
     counter = 0
     while counter < PROGRESSION_LENGTH:
@@ -20,6 +21,7 @@ def get_question(first_value, difference, value_to_skip):
 
 
 def get_question_answer():
+    '''generates question and answer'''
     first_value = random.randint(2, 50)
     difference = random.randint(2, 5)
     value_to_skip = random.randint(0, PROGRESSION_LENGTH - 1)
