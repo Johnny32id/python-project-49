@@ -7,6 +7,8 @@ RANDOM_VALUE = random.randint(1, 300)
 
 def is_prime(value):
     '''checks whether a number is prime or not'''
+    if value == 1:
+        return False
     for i in range(2, int(value / 2) + 1):
         if value % i == 0:
             return False
